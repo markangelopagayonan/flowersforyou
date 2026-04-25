@@ -2014,3 +2014,59 @@ h2 {
     opacity: 1;
   }
 }
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Adjust text for mobile */
+  h1 {
+    top: 20%;
+    left: 5%;
+    font-size: 1.8em;
+    line-height: 1.4;
+    width: 90%;
+  }
+
+  h2 {
+    top: 50%;
+    left: 5%;
+    font-size: 1em;
+    width: 90%;
+  }
+
+  /* Scale down flowers for mobile */
+  .flowers {
+    transform: scale(0.6);
+    bottom: -10vmin;
+  }
+
+  /* Adjust flower positioning */
+  .flower {
+    bottom: 5vmin;
+  }
+
+  /* Make bubbles smaller on mobile */
+  .bubble {
+    transform: scale(0.7);
+  }
+
+  /* Adjust grass positioning */
+  .long-g {
+    transform: scale(0.6);
+  }
+}
+
+/* Even smaller phones */
+@media screen and (max-width: 480px) {
+  h1 {
+    top: 15%;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    top: 45%;
+    font-size: 0.9em;
+  }
+
+  .flowers {
+    transform: scale(0.5);
+  }
+}
